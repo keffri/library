@@ -69,7 +69,6 @@ function createBook() {
   bookStatus.onclick = function () {
     if (bookRead.textContent === "Read") {
       libraryBook.style.backgroundColor = "#8c7171";
-
       bookRead.textContent = "Unread";
     } else if (bookRead.textContent === "Unread") {
       libraryBook.style.backgroundColor = "#718c71";
